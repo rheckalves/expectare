@@ -4,7 +4,6 @@ apply plugin: "com.facebook.react"
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 
 def enableProguardInReleaseBuilds = false
-def hermesEnabled = false  // Make sure to set this flag based on your project requirements
 
 react {
     // Configuration settings for React Native and Hermes can be uncommented and edited as needed
